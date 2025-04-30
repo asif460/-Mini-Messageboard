@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Message by <%= message.user %></h1>
+  <p><%= message.text %></p>
+  <small>Posted on <%= message.added.toLocaleString() %></small>
+  <br><br>
+  <a href="/">Back to all messages</a>
+</body>
+</html>
